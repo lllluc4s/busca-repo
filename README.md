@@ -18,11 +18,7 @@ Este é um buscador que consome a API do GitHub para listar os 5 repositórios c
 
 ## Instalação
 
-1. Clone o repositório para sua máquina:
-
-```
-git clone https://github.com/lllluc4s/busca-repo.git
-```
+1. Clone o repositório para sua máquina.
 
 2. Instale as dependências do projeto executando o comando abaixo na pasta raiz:
 
@@ -36,12 +32,7 @@ composer install
 cp .env.example .env
 ```
 
-4. Verifique as credenciais de acesso à API do GitHub no arquivo `.env`:
-
-```
-GITHUB_CLIENT_ID=2651cd33df66a2ccb131
-GITHUB_CLIENT_SECRET=c1c85d46a737ee727fb2133d93596f70216c5f09
-```
+4. Verifique as credenciais de acesso à API do GitHub no arquivo `.env`.
 
 5. Inicie o servidor PHP:
 
